@@ -1,0 +1,387 @@
+using System;
+
+namespace Assignment4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ////qn 1
+            //int[] arr = new int[10];
+            //Console.WriteLine("enter 10 numbers");
+            //for (int i=0;i<10;i++)
+            //{ 
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //for(int i=9;i>=0;i--)
+            //{
+            //    Console.Write(arr[i] + " ");
+            //}
+
+            ////qn2
+            //int[] arr = new int[10];
+            //int sum = 0;
+            //Console.WriteLine("enter 10 numbers");
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //for (int i = 9; i >= 0; i--)
+            //{
+            //    sum += arr[i];
+            //}
+            //Console.WriteLine("the average is {0}", sum / 10);
+
+            ////qn3
+
+            //Console.WriteLine("enter size");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr=new int[n];
+            //Console.WriteLine("enter {0}numbers",n);
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //int temp = arr[0];
+            //arr[0] = arr[n - 1];
+            //arr[n - 1] = temp;
+            //Console.WriteLine("After swapping");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write(arr[i] + " ");
+
+            //}
+
+            //qn4
+            //int[] arr = new int[10];
+            //int max = Int32.MinValue;
+            //Console.WriteLine("enter 10 numbers");
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //for (int i = 0; i <10; i++)
+            //{
+            //    max = Math.Max(max, arr[i]);
+            //}
+            //Console.Write("The maximum number is {0}", max);
+
+            ////qn5
+            //int[] arr = new int[10];
+            //int min = Int32.MaxValue;
+            //Console.WriteLine("enter 10 numbers");
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    min = Math.Min(min, arr[i]);
+            //}
+            //Console.Write("The maximum number is {0}", min);
+
+            ////qn6
+
+            //Console.WriteLine("enter size");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr=new int[n];
+            //Console.WriteLine("enter {0} numbers", n);
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //Array.Sort(arr);
+            //Console.WriteLine("After sorting");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write(arr[i] + " ");
+
+            //}
+
+            ////qn 7
+            //Console.WriteLine("enter size");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+            //Console.WriteLine("enter {0} numbers", n);
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //Array.Sort(arr);
+            //Array.Reverse(arr);
+            //Console.WriteLine("After sorting");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write(arr[i] + " ");
+
+            //}
+
+            ////qn 8
+            //Console.WriteLine("enter size");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+            //int[] arr2 = new int[n];
+            //Console.WriteLine("enter {0} numbers", n);
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+
+            //}
+            //int l = n-1;
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr2[i] = arr[l--];
+
+            //}
+            //Console.WriteLine("second array");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write(arr2[i] + " ");
+
+            //}
+
+            //Multi dimensional array
+            ////qn1
+            //int[,] arr = new int[4,3];
+            //Console.WriteLine("Enter 12 numbers:");
+            //for(int i=0;i<4;i++)
+            //{
+            //    for(int j=0;j<3;j++)
+            //    {
+            //        arr[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write(arr[i, j]+" ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            ////qn2
+            //Console.WriteLine("Enter size of array m and n");
+            //int m = int.Parse(Console.ReadLine());
+            //int n = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter {0} numbers for array 1", m * n);
+            //int[,] arr1 = new int[m,n];
+            //int[,] arr2 = new int[m,n];
+            //for (int i = 0; i < m; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        arr1[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //Console.WriteLine("Enter {0} numbers for array 2", m * n);
+            //for (int i = 0; i < m; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        arr2[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //Console.WriteLine("The sum of array 1 and array 2");
+            //for (int i = 0; i < m; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        Console.Write((arr1[i, j]+arr2[i,j]) + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            ////qn3
+            //Console.WriteLine("Enter n,l and m");
+            //int n = int.Parse(Console.ReadLine());
+            //int l = int.Parse(Console.ReadLine());
+            //int m = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter {0} numbers for array 1", m * n);
+            //int[,] arr1 = new int[n, l];
+            //int[,] arr2 = new int[l, m];
+            //int[,] arr3 = new int[n,m];
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < l; j++)
+            //    {
+            //        arr1[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //Console.WriteLine("Enter {0} numbers for array 2", m * n);
+            //for (int i = 0; i < l; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        arr2[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        for (int k = 0; k < l; k++)
+            //        {
+            //            arr3[i,j] += arr1[i,k] * arr2[k,j];
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("The multiplication of array 1 and array 2");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        Console.Write(arr3[i,j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            ////qn4
+            //Console.WriteLine("Enter size of array m and n");
+            //int m = int.Parse(Console.ReadLine());
+            //int n = int.Parse(Console.ReadLine());
+           
+            //int[,] arr = new int[m, n];
+            //char choice;
+            //while (true)
+            //{
+            //    Console.WriteLine("\na. To input elements into matrix of size m x n");
+            //    Console.WriteLine("b. To display elements of matrix of size m x n");
+            //    Console.WriteLine("c. Sum of all elements of matrix of size m x n");
+            //    Console.WriteLine("d. To display row-wise sum of matrix of size m x n");
+            //    Console.WriteLine("e. To display column-wise sum of matrix of size m x n");
+            //    Console.WriteLine("f. To create transpose of matrix B of size n x m");
+            //    Console.WriteLine("g. Exit");
+            //    Console.Write("Enter your choice: ");
+            //    choice = char.Parse(Console.ReadLine());
+            //    Console.WriteLine();
+            //    switch(choice)
+            //    {
+            //        case 'a':   inputArray();
+            //                    break;
+            //        case 'b':   display();
+            //                    break;
+            //        case 'c':   int sum = sumEle();
+            //                    Console.WriteLine("The sum of elements is {0}", sum);
+            //                    break;
+            //        case 'd':   rowSum();
+            //                    break;
+            //        case 'e':   colSum();
+            //                    break;
+            //        case 'f':   transpose();
+            //                    break;
+
+            //        case 'g':
+            //                    System.Environment.Exit(1);
+            //                    break;
+            //        default:
+            //                    Console.WriteLine("Incorrect choice");
+            //                    break;
+
+            //    }
+               
+            //}
+
+            //void inputArray()
+            //{
+            //    Console.WriteLine("Enter {0} numbers for array ", m * n);
+            //    for (int i = 0; i < m; i++)
+            //    {
+            //        for (int j = 0; j < n; j++)
+            //        {
+            //            arr[i, j] = int.Parse(Console.ReadLine());
+            //        }
+            //    }
+            //}
+
+            //void display()
+            //{
+            //    Console.WriteLine("The elements of array");
+            //    for (int i = 0; i < m; i++)
+            //    {
+            //        for (int j = 0; j < n; j++)
+            //        {
+            //            Console.Write(arr[i, j] + " ");
+            //        }
+            //        Console.WriteLine();
+            //    }
+
+            //}
+
+            //int sumEle()
+            //{
+
+            //    int sum = 0;
+            //    for (int i = 0; i < m; i++)
+            //    {
+            //        for (int j = 0; j < n; j++)
+            //        {
+            //            sum += arr[i, j];
+            //        }
+                    
+            //    }
+            //    return sum;
+            //}
+            //void rowSum()
+            //{
+            //    int sum = 0;
+            //    for(int i=0;i<m;i++)
+            //    {
+            //        sum = 0;
+            //        for(int j=0;j<n;j++)
+            //        {
+            //            sum += arr[i, j];
+
+            //        }
+            //        Console.WriteLine("The sum of row{0}:{1}",(i+1),sum);
+                    
+            //    }
+            //}
+
+            //void colSum()
+            //{
+            //    int sum = 0;
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        sum = 0;
+            //        for (int j = 0; j < m; j++)
+            //        {
+            //            sum += arr[j, i];
+
+            //        }
+            //        Console.WriteLine("The sum of col{0}:{1}", (i + 1), sum);
+
+            //    }
+            //}
+
+            //void transpose()
+            //{
+            //    int[,] trans = new int[n,m];
+            //    for(int i=0;i<m;i++)
+            //    {
+            //        for(int j=0;j<n;j++)
+            //        {
+            //            trans[j,i] = arr[i,j];
+            //        }
+            //    }
+            //    Console.WriteLine("The transpose of array");
+            //    for (int i = 0; i < n; i++)
+            //    {
+            //        for (int j = 0; j < m; j++)
+            //        {
+            //            Console.Write(trans[i, j]+" ");
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //}
+
+        }
+    }
+}
